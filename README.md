@@ -26,31 +26,5 @@ SpamDetectionMailsPrediction-ak/
 ├── README.md                 # Project description (this file)
 └── .gitignore                # Optional ignore file
 
-##🚀 Getting Started
 
-###
-1️⃣ Clone the Repository
 
-```bash
-git clone https://github.com/AvniKal/SpamDetectionMailsPrediction-ak.git
-cd SpamDetectionMailsPrediction-ak
-
-2️⃣ Install Dependencies
-Make sure you have Python installed. Then run:
-pip install pandas numpy scikit-learn nltk matplotlib seaborn jupyter
-3️⃣ Run the Jupyter Notebook
-jupyter notebook
-
-Dataset Information
-The dataset email.csv contains email messages and their corresponding labels:
-spam → unwanted or harmful email
-ham → legitimate email
-The dataset is used for training, testing, and evaluating the model.
-
-💡 Future Improvements
-You can enhance the project by:
-Deploying the model using Flask / FastAPI
-Using transformer models (e.g., BERT)
-Adding more datasets for higher accuracy
-Building a UI where users can input an email to check if it's spam
-Then open Spam_detection1.ipynb and run all cells.
