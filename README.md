@@ -43,16 +43,16 @@ Make sure Python is installed (3.8+ recommended).
 ~~~
 pip install pandas numpy scikit-learn nltk matplotlib seaborn jupyter
 ~~~
-3️⃣ Launch Jupyter Notebook
-4️⃣ Open the Notebook
-5️⃣ Run All Cells
+3️⃣ Launch Jupyter Notebook<br>
+4️⃣ Open the Notebook<br>
+5️⃣ Run All Cells<br>
 
 
-💡 Future Improvements
-You can enhance the project by:
-Deploying the model using Flask / FastAPI
-Using transformer models (e.g., BERT)
-Adding more datasets for higher accuracy
+💡 Future Improvements<br>
+You can enhance the project by:<br>
+Deploying the model using Flask / FastAPI<br>
+Using transformer models (e.g., BERT)<br>
+Adding more datasets for higher accuracy<br>
 Building a UI where users can input an email to check if it's spam
 
 
