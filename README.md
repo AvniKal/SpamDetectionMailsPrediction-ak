@@ -18,13 +18,41 @@ This project is developed using a **Jupyter Notebook** (`Spam_detection1.ipynb`)
 ---
 
 ## 🗂️ Repository Structure
-
-```plaintext
+~~~
 SpamDetectionMailsPrediction-ak/
 ├── Spam_detection1.ipynb     # Core Jupyter Notebook with full workflow
 ├── email.csv                 # Email dataset used for training & testing
 ├── README.md                 # Project description (this file)
 └── .gitignore                # Optional ignore file
+~~~
 
+---
+
+## 🚀 How to Run the Project
+
+Follow these steps to run the model on your system:
+
+### **1️⃣ Clone the Repository**
+
+~~~bash
+git clone https://github.com/AvniKal/SpamDetectionMailsPrediction-ak.git
+cd SpamDetectionMailsPrediction-ak
+~~~
+2️⃣ Install Dependencies
+Make sure Python is installed (3.8+ recommended).
+~~~
+pip install pandas numpy scikit-learn nltk matplotlib seaborn jupyter
+~~~
+3️⃣ Launch Jupyter Notebook
+4️⃣ Open the Notebook
+5️⃣ Run All Cells
+
+
+💡 Future Improvements
+You can enhance the project by:
+Deploying the model using Flask / FastAPI
+Using transformer models (e.g., BERT)
+Adding more datasets for higher accuracy
+Building a UI where users can input an email to check if it's spam
 
 
